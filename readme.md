@@ -37,7 +37,7 @@ O servidor possui os seguintes resolvers:
 ## Testes
 Para rodar os testes do projeto, utilize o seguinte comando:
 ```bash
-npm test
+npm run dev
 ```
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests no repositório.
