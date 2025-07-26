@@ -22,7 +22,7 @@ O Prisma é utilizado para interagir com o banco de dados SQLite. Certifique-se 
 ## Executando o Servidor
 Para iniciar o servidor GraphQL, execute o seguinte comando:
 ```bash
-npm start
+npm run dev
 ```
 O servidor será iniciado na porta 4000 por padrão. Você pode acessar o playground GraphQL em `http://localhost:4000`.
 ## Consultas e Mutações
@@ -34,15 +34,9 @@ O servidor possui os seguintes resolvers:
 - **Mutation**:
     - `createBook(title: String!, authorId: ID!)`: Cria um novo livro recebendo o título e o ID do autor, retornando o livro criado.
     - `createAuthor(name: String!)`: Cria um novo autor recebendo o nome, retornando o autor criado.
-## Testes
-Para rodar os testes do projeto, utilize o seguinte comando:
-```bash
-npm test
-```
+
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests no repositório.
-## Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ## Dependências
 - `@apollo/server`: Para criar o servidor GraphQL.
 - `@prisma/client`: Cliente Prisma para interagir com o banco de dados.
